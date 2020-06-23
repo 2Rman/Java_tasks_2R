@@ -1,11 +1,17 @@
 package undertask_1;
 
+import org.w3c.dom.ls.LSInput;
+import javax.swing.*;
+import java.sql.SQLOutput;
+import java.util.Scanner;
+
 public class ABC_compare {
     public static void main(String[] args) {
-        int a, b, c;
-        a = 4;
-        b = 5;
-        c = 6;
+        Scanner in = new Scanner (System.in);
+        System.out.println("Введите числа a b c для сравнения");
+        int a = in.nextInt();
+        int b = in.nextInt();
+        int c = in.nextInt();
         if (a!=b) {
             System.out.println("a не равно b");
         } else System.out.println("a равно b");
