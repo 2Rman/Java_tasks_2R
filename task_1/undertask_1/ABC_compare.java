@@ -14,19 +14,19 @@ public class ABC_compare {
         int c = in.nextInt();
 
         // Добавил скобки к else
-        if (a!=b) {
+        if (a != b) {
             System.out.println("a не равно b");
         } else {
             System.out.println("a равно b");
         }
 
-        if (b!=c) {
+        if (b != c) {
             System.out.println("b не равно c");
         } else {
             System.out.println("b равно c");
         }
 
-        if (c!=a) {
+        if (c != a) {
             System.out.println("c не равно a");
         } else {
             System.out.println("c равно a");
