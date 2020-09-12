@@ -7,13 +7,13 @@ public class ABC_compare {
     public static void main(String[] args) {
         Scanner in = new Scanner (System.in);
         System.out.println("Введите числа a b c для сравнения");
-        // Разделил на блоки для читаемости
+        //+
 
         int a = in.nextInt();
         int b = in.nextInt();
         int c = in.nextInt();
 
-        // Добавил скобки к else
+        //+
         if (a != b) {
             System.out.println("a не равно b");
         } else {

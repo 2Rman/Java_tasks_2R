@@ -2,7 +2,7 @@ package undertask_5;
 
 import java.util.Scanner;
 
-//Наименование
+//-
 public class AverageNumberCalculator {
     public static void main(String[] args) {
 

@@ -8,14 +8,13 @@ import java.util.Scanner;
  */
 public class Ring {
     public static void main(String[] args) {
-        double firstRadius; //было бессмысленно присваивать, достаточно объявить
-        double secondRadius; //Да, желательно с каждой строки новое объявление.
+        double firstRadius; //+
+        double secondRadius; //+
 
-        Scanner scanner = new Scanner(System.in); //не называй переменные с началом get (будем позже проходить)
-        // + Сканнер есть сканнер, а не даватель радиусов :)
+        Scanner scanner = new Scanner(System.in); //+
 
         //С do while идея хорошая, молодец :)
-        //Маленький пробельчик после do
+        //+
         do {
             System.out.println("ВВедите радиусы кругов 1 и 2 соответственно...\n"); //Блок должен повторяться, если ввели неправильно числа
 
@@ -30,7 +29,7 @@ public class Ring {
 
         System.out.println("Площадь образованного кольца: ");
         System.out.println((Math.PI * (firstRadius * firstRadius)) - (Math.PI * (secondRadius * secondRadius)));
-        //В Java есть математический класс Math. В нем есть PI
+        //+
     }
 }
 

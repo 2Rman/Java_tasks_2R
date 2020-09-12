@@ -6,7 +6,7 @@ public class Dinosaur {
     public static void main(String[] args) {
         Scanner in = new Scanner(System.in);
         System.out.println("Сколько весит динозавр?");
-        //Разбил на блоки, где надо, добавил пробелы
+        //+
 
         int dino_kg = in.nextInt();
         double dino_t = (double) dino_kg/1000;
